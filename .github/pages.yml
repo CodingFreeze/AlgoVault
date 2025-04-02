@@ -1,0 +1,8 @@
+build:
+  dir: build
+# This enables GitHub Pages options while we add the Actions-based workflow
+site:
+  publish: true
+  # This is relative to the repo, not the build directory
+  # Needs to match where the built files end up
+  root: /build 

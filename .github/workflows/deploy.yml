@@ -36,13 +36,20 @@ jobs:
       - name: Build
         run: npm run build
         
+      - name: Debug output
+        run: |
+          echo "Build directory contents:"
+          ls -la build || echo "build directory not found"
+          echo "Current directory contents:"
+          ls -la
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build'
+          path: './build'
 
   deploy:
     environment:
