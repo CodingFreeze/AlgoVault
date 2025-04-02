@@ -84,7 +84,7 @@ npm run build
 
 ## Demo
 
-Visit the live version at: [https://codingfreeze.github.io/AlgoVault/](https://codingfreeze.github.io/AlgoVault/)
+Visit the live version at: [https://algovault.vercel.app/](https://algovault.vercel.app/)
 
 ## License
 
