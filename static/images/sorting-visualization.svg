@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3498DB" />
+      <stop offset="100%" stop-color="#2980B9" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#ECEEF4" />
+  
+  <!-- Bars representing an array being sorted -->
+  <rect x="40" y="220" width="30" height="50" fill="url(#barGradient)" />
+  <rect x="80" y="190" width="30" height="80" fill="url(#barGradient)" />
+  <rect x="120" y="150" width="30" height="120" fill="url(#barGradient)" />
+  <rect x="160" y="120" width="30" height="150" fill="url(#barGradient)" />
+  <rect x="200" y="100" width="30" height="170" fill="url(#barGradient)" />
+  <rect x="240" y="70" width="30" height="200" fill="url(#barGradient)" />
+  <rect x="280" y="50" width="30" height="220" fill="url(#barGradient)" />
+  <rect x="320" y="30" width="30" height="240" fill="url(#barGradient)" />
+  
+  <!-- Position indicator arrows for currently comparing elements -->
+  <polygon points="55,240 65,240 60,230" fill="#E74C3C" />
+  <polygon points="95,240 105,240 100,230" fill="#E74C3C" />
+  
+  <!-- Label -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial" font-size="16" fill="#2C3E50">Sorting Visualization</text>
+</svg> 
