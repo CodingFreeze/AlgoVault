@@ -1,7 +1,5 @@
 # AlgoVault - Visual Algorithm Explorer
 
-![AlgoVault Logo](https://via.placeholder.com/800x400?text=AlgoVault)
-
 ## Overview
 
 AlgoVault is an interactive web platform designed to visualize and animate fundamental computer science algorithms. The project aims to make algorithm concepts more intuitive and accessible by providing step-by-step visual representations of how algorithms work. It was created as a personal learning tool and a resource for computer science students who benefit from visual demonstrations.
