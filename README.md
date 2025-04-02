@@ -1,58 +1,97 @@
-# Svelte library
+# AlgoVault - Visual Algorithm Explorer
 
-Everything you need to build a Svelte library, powered by [`sv`](https://npmjs.com/package/sv).
+![AlgoVault Logo](https://via.placeholder.com/800x400?text=AlgoVault)
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+## Overview
 
-## Creating a project
+AlgoVault is an interactive web platform designed to visualize and animate fundamental computer science algorithms. The project aims to make algorithm concepts more intuitive and accessible by providing step-by-step visual representations of how algorithms work. It was created as a personal learning tool and a resource for computer science students who benefit from visual demonstrations.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
+
+- **Interactive Visualizations**: Control algorithm execution with step-forward, step-backward, and variable speed animations
+- **Multiple Algorithm Categories**: Sorting, Graph, Tree, and Search algorithms implemented
+- **Algorithm Information**: Detailed descriptions, time/space complexity analysis, and pseudocode for each algorithm
+- **Responsive Design**: Works on desktop and mobile devices
+
+## Algorithms Implemented
+
+AlgoVault currently includes 16 algorithms across 4 categories:
+
+### Sorting Algorithms
+- QuickSort
+- MergeSort
+- BubbleSort
+- Insertion Sort
+
+### Graph Algorithms
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Dijkstra's Algorithm
+- A* Pathfinding
+
+### Tree Algorithms
+- Binary Search Tree Insertion
+- Tree Traversals
+- AVL Tree Balancing
+- Red-Black Trees
+
+### Search Algorithms
+- Linear Search
+- Binary Search
+- Hash-based Search
+- Substring Search
+
+## Technologies Used
+
+- **Framework**: SvelteKit
+- **Language**: TypeScript
+- **Animation**: GSAP (GreenSock Animation Platform)
+- **Visualization**: SVG for rendering algorithm states
+- **Styling**: Custom CSS with responsive design
+- **State Management**: Svelte Stores
+
+## Purpose & Motivation
+
+I built AlgoVault for two primary reasons:
+
+1. **Educational Tool**: As a computer science student, I found that visualizing algorithms helped tremendously with understanding their mechanics and behavior. AlgoVault allows users to slow down and examine each step of an algorithm's execution.
+
+2. **Skill Development**: This project served as a practical way to improve my web development skills, particularly with SvelteKit, TypeScript, and interactive visualizations.
+
+## Future Development
+
+While the current scope of AlgoVault is complete with 16 algorithms implemented, future enhancements may include:
+
+- Algorithm comparison tool to directly compare performance
+- Code walkthrough mode highlighting corresponding code as algorithms execute
+- Additional algorithm categories (dynamic programming, greedy algorithms)
+- Performance metrics showing real-time analysis
+
+## Local Development
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# Clone the repository
+git clone https://github.com/CodingFreeze/AlgoVault.git
+cd AlgoVault
 
-# create a new project in my-app
-npx sv create my-app
-```
+# Install dependencies
+npm install
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# Start development server
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
-
-## Building
-
-To build your library:
-
-```bash
-npm run package
-```
-
-To create a production version of your showcase app:
-
-```bash
+# Build for production
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Demo
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Visit the live version at: [https://codingfreeze.github.io/AlgoVault/](https://codingfreeze.github.io/AlgoVault/)
 
-## Publishing
+## License
 
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To publish your library to [npm](https://www.npmjs.com):
+## Acknowledgements
 
-```bash
-npm publish
-```
+This project was inspired by algorithm visualizers encountered in computer science courses and online resources. Special thanks to all the open-source projects that made this work possible.
